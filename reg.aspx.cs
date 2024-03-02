@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Data.SqlClient;
 using System.Configuration;
+using System.Data.SqlClient;
 
 public partial class reg : System.Web.UI.Page
 {
@@ -26,10 +21,10 @@ public partial class reg : System.Web.UI.Page
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
-            lblerror.Text = TextBox1.Text+ " has been register successfully";
+            lblerror.Text = TextBox1.Text + " has been register successfully";
             Session["email"] = TextBox1.Text;
-            
-          
+
+
         }
         catch (Exception ex)
         {
