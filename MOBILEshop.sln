@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MOBILEshop", ".", "{90D28EDA-F197-46FD-A828-5D153E33F5B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57054"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Projects\project 2021\MOBILEshop\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57054\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57054"
+		Release.AspNetCompiler.PhysicalPath = "E:\Projects\project 2021\MOBILEshop\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57054\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57054"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90D28EDA-F197-46FD-A828-5D153E33F5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D28EDA-F197-46FD-A828-5D153E33F5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1C1D817-7AE2-46E8-972D-838626FA8C29}
+	EndGlobalSection
+EndGlobal
